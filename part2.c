@@ -155,7 +155,7 @@ int main(void) {
   
   for(int i = 0; i < 3; i++ ){
      //Print the value with film number
-    printf("\nFilm %d Average Rating : %.2f", (i + 1), average);
+    printf("\nFilm %d Average Rating : %.2f", (i + 1), averageArray[i]);
   }
   
 
